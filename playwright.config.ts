@@ -6,7 +6,7 @@ export default defineConfig({
 
   use: {
     baseURL:'https://react-todomvc.netlify.app/',
-    headless: false,
+    headless: true,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
     trace: 'retain-on-failure',
